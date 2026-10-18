@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Carillon Recital Rota</title>
+    <meta
+      name="description"
+      content="Carillon Recital Rota — Sunday recital rota, tower clavier practice slots, and recital programmes with arrangement credits."
+    />
+    <meta name="theme-color" content="#070d10" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="/styles.css" />
+    <script type="module" src="/app.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="site-header__inner">
+        <a class="brand" href="/" data-link>
+          <span class="brand__mark" aria-hidden="true">$</span>
+          <span class="brand__text">
+            <span class="brand__name">carillon-rota</span>
+            <span class="brand__sub">Sunday recitals &middot; tower practice</span>
+          </span>
+        </a>
+
+        <nav class="site-nav" id="site-nav" aria-label="Primary" hidden>
+          <a href="/" data-link>Dashboard</a>
+          <a href="/rota" data-link>Rota</a>
+          <a href="/practice" data-link>Practice</a>
+        </nav>
+
+        <div class="session" id="session-slot">
+          <span class="session__skeleton" aria-hidden="true"></span>
+        </div>
+      </div>
+      <div class="keyline" aria-hidden="true"></div>
+    </header>
+
+    <main id="main" tabindex="-1">
+      <div class="route-loading" role="status">
+        <p class="route-loading__line">&gt; loading&hellip;</p>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="keyline keyline--footer" aria-hidden="true"></div>
+      <div class="site-footer__inner">
+        <p>
+          <span class="prompt" aria-hidden="true">&gt;</span>
+          Carillon Recital Rota &middot; one tower, one rota, every Sunday.
+        </p>
+        <p class="site-footer__meta">Local data store &middot; data/db.json</p>
+      </div>
+    </footer>
+
+    <div class="toast-stack" id="toast-stack" role="status" aria-live="polite"></div>
+  </body>
+</html>
