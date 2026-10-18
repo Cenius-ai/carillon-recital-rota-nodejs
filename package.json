@@ -1,0 +1,14 @@
+{
+  "name": "carillon-recital-rota",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Carillon Recital Rota - Sunday recital rota, tower clavier practice slots, and recital programmes with arrangement credits.",
+  "main": "server.js",
+  "engines": {
+    "node": "20"
+  },
+  "scripts": {
+    "seed": "node seed.js",
+    "test": "node --test tests/"
+  }
+}
