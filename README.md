@@ -23,7 +23,7 @@ _Local clone? See [Quick start](#quick-start) below. cenius.ai is the zero-setup
 
 ## Architecture
 
-Folder layout: `data/`, `public/`, `tests/`. `install.sh` wires up dependencies and loads seed records; after it runs the app has real data to show. Built in Node.js (35 files). Step-by-step setup guide: [`INSTALL.md`](INSTALL.md).
+Folder layout: `data/`, `public/`, `tests/`. `install.sh` wires up dependencies and loads seed records; after it runs the app has real data to show. Built in Node.js (24 files). Step-by-step setup guide: [`INSTALL.md`](INSTALL.md).
 
 ## Features
 
